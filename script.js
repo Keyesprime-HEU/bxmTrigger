@@ -6,6 +6,7 @@ const audioGroups = [
       { label: "Ciallo～(∠・ω< )⌒★", file: "audio/ciallo.mp3" },
       { label: "呀吼", file: "audio/yahoo.mp3" },
       { label: "嗯~", file: "audio/hum.mp3" },
+      { label: "小蛮人", file: "audio/小蛮人.mp3" },
       { label: "小蛮人真棒", file: "audio/小蛮人真棒.mp3" },
       { label: "真棒1", file: "audio/真棒1.mp3" },
       { label: "真棒爽朗版！", file: "audio/真棒爽朗版.mp3" },
