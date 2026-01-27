@@ -7,7 +7,7 @@ const audioGroups = [
       { label: "小蛮人真棒", file: "audio/小蛮人真棒.mp3" },
       { label: "恼火🤯", file: "audio/恼火.mp3" },
       { label: "拜拜👋", file: "audio/拜拜.mp3" },
-      { label: "好狗狗🦴", file: "audio/拜拜.mp3" },
+      { label: "好狗狗🦴", file: "audio/好狗狗.mp3" },
       { label: "怪叫", file: "audio/怪叫1.mp3" },
       { label: "真是淫乱呢", file: "audio/真是淫乱呢.mp3" },
       { label: "收钱音效", file: "audio/收钱音效.mp3" },
@@ -65,4 +65,5 @@ audioGroups.forEach(group => {
   });
 
   container.appendChild(groupDiv);
+
 });
