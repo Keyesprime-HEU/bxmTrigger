@@ -1,4 +1,3 @@
-// ====== 在这里修改你的语音分组！ ======
 const audioGroups = [
   {
     title: "💬 很日常的日常用语",
@@ -36,7 +35,7 @@ const audioGroups = [
   }
 ];
 
-// ====== 自动生成按钮 ======
+// ====== 用于按钮自动生成 ======
 const container = document.getElementById("buttons-container");
 const audioPlayer = document.getElementById("audio-player");
 
@@ -67,3 +66,4 @@ audioGroups.forEach(group => {
   container.appendChild(groupDiv);
 
 });
+
