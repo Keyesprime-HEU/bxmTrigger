@@ -1,3 +1,4 @@
+// ====== 在这里修改你的语音分组！ ======
 const audioGroups = [
   {
     title: "💬 很日常的日常用语",
@@ -22,6 +23,9 @@ const audioGroups = [
       { label: "假清高", file: "audio/假清高.mp3" },
       { label: "主播是S", file: "audio/主播是S.mp3" },
       { label: "直播间不是只搞黄色直播间吗", file: "audio/只搞黄色直播间.mp3" },
+      { label: "大家还是太性压抑了", file: "audio/太性压抑了.mp3" },
+      { label: "违反公序良俗请分享", file: "audio/自首.mp3" },
+      
     ]
   },
   {
@@ -30,12 +34,14 @@ const audioGroups = [
       { label: "雅达！", file: "audio/亚达.mp3" },
       { label: "果咩！", file: "audio/果咩.mp3" },
       { label: "エロい~", file: "audio/eroi.mp3" },
-      { label: "不知道", file: "audio/希腊奶.mp3" }
+      { label: "不知道", file: "audio/希腊奶.mp3" },
+      { label: "真的？", file: "audio/真的？.mp3" },
+      { label: "达咩", file: "audio/达咩.mp3" }
     ]
   }
 ];
 
-// ====== 用于按钮自动生成 ======
+// ====== 自动生成按钮 ======
 const container = document.getElementById("buttons-container");
 const audioPlayer = document.getElementById("audio-player");
 
@@ -64,6 +70,4 @@ audioGroups.forEach(group => {
   });
 
   container.appendChild(groupDiv);
-
 });
-
