@@ -6,7 +6,12 @@ const audioGroups = [
       { label: "Ciallo～(∠・ω< )⌒★", file: "audio/ciallo.mp3" },
       { label: "小蛮人真棒", file: "audio/小蛮人真棒.mp3" },
       { label: "恼火🤯", file: "audio/恼火.mp3" },
-      { label: "拜拜👋", file: "audio/拜拜.mp3" }
+      { label: "拜拜👋", file: "audio/拜拜.mp3" },
+      { label: "好狗狗🦴", file: "audio/拜拜.mp3" },
+      { label: "怪叫", file: "audio/怪叫1.mp3" },
+      { label: "真是淫乱呢", file: "audio/真是淫乱呢.mp3" },
+      { label: "收钱音效", file: "audio/收钱音效.mp3" },
+      { label: "不对！", file: "audio/不对不对.mp3" }
     ]
   },
     {
@@ -25,7 +30,8 @@ const audioGroups = [
     items: [
       { label: "雅达！", file: "audio/亚达.mp3" },
       { label: "果咩！", file: "audio/果咩.mp3" },
-      { label: "エロい~", file: "audio/eroi.mp3" }
+      { label: "エロい~", file: "audio/eroi.mp3" },
+      { label: "不知道", file: "audio/希腊奶.mp3" }
     ]
   }
 ];
