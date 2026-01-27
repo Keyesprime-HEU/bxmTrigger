@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: white; /* 文字颜色 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+  position: relative; /* 必须设置position:relative以便伪元素定位 */
+}
+
+/* 使用 ::before 伪元素来设置背景图片 */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('background.jpg'); /* 替换为你的背景图片路径 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6; /* 设置背景图片透明度 */
+  z-index: -1; /* 确保伪元素位于内容之下 */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.2em;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+#buttons-container {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group-title {
+  width: 100%;
+  text-align: left;
+  margin: 30px 0 15px 0;
+  padding-left: 20px;
+  font-size: 1.4em;
+  color: #723bff;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  width: 100%;
+}
+
+button {
+  padding: 16px 28px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: white;
+  color: #2581fccc;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  min-width: 130px;
+  text-align: center;
+}
+
+button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+button:active {
+  transform: translateY(0);
+}
+/* 让“播放”超链接完全融入标题 */
+.title-link {
+  all: unset;                    /* 清除所有默认样式 */
+  color: inherit;                /* 继承父级颜色（白色） */
+  font: inherit;                 /* 继承字体、大小、粗细等 */
+  text-decoration: none;         /* 确保无下划线 */
+  background: none;              /* 无背景 */
+  border: none;                  /* 无边框 */
+  padding: 0;                    /* 无内边距 */
+  margin: 0;                     /* 无外边距 */
+  cursor: pointer;               /* 鼠标变手型，提示可点击 */
+}
+
+/* 悬停时加一点反馈（避免用户不知道能点） */
+.title-link:hover {
+  opacity: 0.2;
+  /* 或者 color: #ffeb3b; 如果你想高亮 */
+}
