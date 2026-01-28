@@ -7,16 +7,21 @@ const audioGroups = [
       { label: "呀吼", file: "audio/yahoo.mp3" },
       { label: "嗯~", file: "audio/hum.mp3" },
       { label: "小蛮人", file: "audio/小蛮人.mp3" },
-      { label: "小蛮人真棒", file: "audio/小蛮人真棒.mp3" },
       { label: "真棒1", file: "audio/真棒1.mp3" },
+      { label: "真棒2", file: "audio/真棒2.mp3" },
       { label: "真棒爽朗版！", file: "audio/真棒爽朗版.mp3" },
+      { label: "okok", file: "audio/okok.mp3" },
       { label: "恼火🤯", file: "audio/恼火.mp3" },
+      { label: "一声猫叫", file: "audio/一声猫叫.wav" },
+      { label: "主播是狗", file: "audio/主播是狗.mp3" },
       { label: "拜拜👋", file: "audio/拜拜.mp3" },
       { label: "好狗狗🦴", file: "audio/好狗狗.mp3" },
       { label: "妈妈在哦", file: "audio/妈妈在哦.mp3" },
       { label: "怪叫", file: "audio/怪叫1.mp3" },
       { label: "真是淫乱呢", file: "audio/真是淫乱呢.mp3" },
+      { label: "黄的没边了", file: "audio/黄的没边了.mp3" },
       { label: "收钱音效", file: "audio/收钱音效.mp3" },
+      { label: "对吗？", file: "audio/对吗？.mp3" },
       { label: "对的对的！", file: "audio/对的对的.mp3" },
       { label: "不对！", file: "audio/不对不对.mp3" },
     ]
@@ -30,10 +35,10 @@ const audioGroups = [
       { label: "大家就是贱！", file: "audio/大家就是贱.mp3" },
       { label: "怎么这么没用", file: "audio/怎么这么没用.mp3" },
       { label: "人类还69呢", file: "audio/人类还69呢.mp3" },
-      { label: "那男同还当搅屎棍呢", file: "audio/男同还当搅屎棍呢.mp3" },
       { label: "假清高", file: "audio/假清高.mp3" },
       { label: "那咋了", file: "audio/那咋了.mp3" },
       { label: "主播是S", file: "audio/主播是S.mp3" },
+      { label: "遇到难回答的问题就又不说话了", file: "audio/遇到难回答的问题就又不说话了.mp3" },
       { label: "直播间不是只搞黄色直播间吗", file: "audio/只搞黄色直播间.mp3" },
       { label: "大家还是太性压抑了", file: "audio/太性压抑了.mp3" },
       { label: "违反公序良俗请分享", file: "audio/自首.mp3" },
@@ -47,9 +52,11 @@ const audioGroups = [
       { label: "果咩！", file: "audio/果咩.mp3" },
       { label: "エロい~", file: "audio/eroi.mp3" },
       { label: "不知道", file: "audio/希腊奶.mp3" },
+      { label: "我知道了", file: "audio/我知道了.mp3" },
       { label: "真的？", file: "audio/真的？.mp3" },
       { label: "达咩", file: "audio/达咩.mp3" },
-      { label: "kimo...", file: "audio/kimo.mp3" }
+      { label: "kimo...", file: "audio/kimo.mp3" },
+      { label: "suki!", file: "audio/suki.mp3" }
     ]
   }
 ];
