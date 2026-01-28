@@ -1,4 +1,4 @@
-// ====== 在这里修改你的语音分组！ ======
+// ====== 在这里修改语音分组 ======
 const audioGroups = [
   {
     title: "💬 很日常的日常用语",
@@ -7,10 +7,14 @@ const audioGroups = [
       { label: "呀吼", file: "audio/yahoo.mp3" },
       { label: "嗯~", file: "audio/hum.mp3" },
       { label: "小蛮人", file: "audio/小蛮人.mp3" },
-      { label: "真棒1", file: "audio/真棒1.mp3" },
-      { label: "真棒2", file: "audio/真棒2.mp3" },
+      { label: "真棒-1", file: "audio/真棒1.mp3" },
+      { label: "真棒-2", file: "audio/真棒2.mp3" },
       { label: "真棒爽朗版！", file: "audio/真棒爽朗版.mp3" },
+      { label: "亲亲-1", file: "audio/亲亲1.mp3" },
+      { label: "亲亲-2", file: "audio/亲亲2.mp3" },
+      { label: "亲亲-3", file: "audio/亲亲3.mp3" },
       { label: "okok", file: "audio/okok.mp3" },
+      { label: "不要嘛", file: "audio/不要嘛.mp3" },
       { label: "恼火🤯", file: "audio/恼火.mp3" },
       { label: "一声猫叫", file: "audio/一声猫叫.wav" },
       { label: "主播是狗", file: "audio/主播是狗.mp3" },
@@ -20,6 +24,8 @@ const audioGroups = [
       { label: "怪叫", file: "audio/怪叫1.mp3" },
       { label: "真是淫乱呢", file: "audio/真是淫乱呢.mp3" },
       { label: "黄的没边了", file: "audio/黄的没边了.mp3" },
+      { label: "你还挑上了", file: "audio/你还挑上了.mp3" },
+      { label: "开🦌", file: "audio/开鹿.mp3" },
       { label: "收钱音效", file: "audio/收钱音效.mp3" },
       { label: "对吗？", file: "audio/对吗？.mp3" },
       { label: "对的对的！", file: "audio/对的对的.mp3" },
@@ -54,6 +60,7 @@ const audioGroups = [
       { label: "不知道", file: "audio/希腊奶.mp3" },
       { label: "我知道了", file: "audio/我知道了.mp3" },
       { label: "真的？", file: "audio/真的？.mp3" },
+      { label: "确实", file: "audio/塔西噶尼.mp3" },
       { label: "达咩", file: "audio/达咩.mp3" },
       { label: "kimo...", file: "audio/kimo.mp3" },
       { label: "suki!", file: "audio/suki.mp3" }
