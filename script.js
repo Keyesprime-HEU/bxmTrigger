@@ -30,6 +30,9 @@ const audioGroups = [
       { label: "对吗？", file: "audio/对吗？.mp3" },
       { label: "对的对的！", file: "audio/对的对的.mp3" },
       { label: "不对！", file: "audio/不对不对.mp3" },
+      { label: "曼波", file: "audio/曼波.mp3" },
+      { label: "哈吉米喔南北路多", file: "audio/哈吉米喔南北路多.mp3" },
+      
     ]
   },
     {
@@ -39,6 +42,7 @@ const audioGroups = [
       { label: "那你也蛮贱的", file: "audio/那你也蛮贱de.mp3" },
       { label: "他们就是贱！", file: "audio/他们就是贱.mp3" },
       { label: "大家就是贱！", file: "audio/大家就是贱.mp3" },
+      { label: "谁给你的胆子反驳我", file: "audio/谁给你的胆子反驳我.mp3" },
       { label: "怎么这么没用", file: "audio/怎么这么没用.mp3" },
       { label: "人类还69呢", file: "audio/人类还69呢.mp3" },
       { label: "假清高", file: "audio/假清高.mp3" },
