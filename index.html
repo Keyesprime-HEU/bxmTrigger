@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>白小蛮音效播放器</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>白小蛮音效播放器</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🔊 点击播放小狗音效，关注
-  <a href="https://space.bilibili.com/1960682407" target="_blank" rel="noopener" class="title-link">
-    白小蛮
-  </a>
-    汪
-  </h1>
-  <div id="buttons-container"></div>
-  <audio id="audio-player"></audio>
-  <script src="script.js"></script>
+    <h1>🔊 点击播放小狗音效，关注 <a href="https://space.bilibili.com/1960682407" target="_blank" rel="noopener" class="title-link"> 白小蛮 </a> 汪 </h1>
+
+    <!-- 修改：只保留变调控制面板 -->
+    <div class="global-controls">
+        <div class="control-row">
+            <label for="pitch-control">变调</label>
+            <!-- 滑块保持不变 -->
+            <input type="range" id="pitch-control" min="-12" max="12" value="0" step="1">
+            <!-- 保留旁边的数值显示，修改了ID以便JS识别 -->
+            <span id="pitch-value" class="value-display">0</span>
+        </div>
+    </div>
+
+    <div id="buttons-container"></div>
+    
+    <!-- 原有的 Audio 元素 (现在仅用于加载) -->
+    <audio id="audio-player"></audio>
+    
+    <script src="script.js"></script>
 </body>
 </html>

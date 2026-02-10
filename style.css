@@ -39,6 +39,69 @@ h1 {
   text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
+/* --- 新增：控制面板样式 --- */
+.global-controls {
+    width: 90%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.control-row {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.control-row label {
+    font-weight: bold;
+    min-width: 60px;
+    color: #723bff;
+    font-size: 0.9em;
+}
+
+.control-row input[type="range"] {
+    -webkit-appearance: none;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    cursor: pointer;
+}
+
+.control-row input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #723bff;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.value-display {
+    min-width: 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #723bff;
+    font-size: 0.9em;
+}
+
+/* --- 原有：按钮容器样式 --- */
 #buttons-container {
   width: 100%;
   max-width: 900px;
@@ -86,21 +149,21 @@ button:hover {
 button:active {
   transform: translateY(0);
 }
+
 /* 让“播放”超链接完全融入标题 */
 .title-link {
-  all: unset;                    /* 清除所有默认样式 */
-  color: inherit;                /* 继承父级颜色（白色） */
-  font: inherit;                 /* 继承字体、大小、粗细等 */
-  text-decoration: none;         /* 确保无下划线 */
-  background: none;              /* 无背景 */
-  border: none;                  /* 无边框 */
-  padding: 0;                    /* 无内边距 */
-  margin: 0;                     /* 无外边距 */
-  cursor: pointer;               /* 鼠标变手型，提示可点击 */
+  all: unset;                    
+  color: inherit;                
+  font: inherit;                 
+  text-decoration: none;         
+  background: none;              
+  border: none;                  
+  padding: 0;                    
+  margin: 0;                     
+  cursor: pointer;               
 }
 
-/* 悬停时加一点反馈（避免用户不知道能点） */
+/* 悬停时加一点反馈 */
 .title-link:hover {
   opacity: 0.2;
-  /* 或者 color: #ffeb3b; 如果你想高亮 */
 }
